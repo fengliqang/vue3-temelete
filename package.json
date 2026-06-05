@@ -31,8 +31,10 @@
     "@types/node": "^24.12.3",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/tsconfig": "^0.9.1",
+    "mockjs": "^1.1.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
+    "vite-plugin-mock": "^3.0.2",
     "vue-tsc": "^3.2.8"
   }
 }

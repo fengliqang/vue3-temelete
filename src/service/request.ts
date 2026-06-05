@@ -19,9 +19,10 @@ service.interceptors.request.use(config => {
 service.interceptors.response.use(response => {
     const res = response.data
     if (res.code === 200) {
-        return response
+        return response.data
+    } else {
+        return Promise.reject(res)
     }
-    return Promise.reject(res)
 
 })
 const http = {
