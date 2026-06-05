@@ -4,6 +4,7 @@ import viteLogo from "../assets/vite.svg";
 import heroImg from "../assets/hero.png";
 import vueLogo from "../assets/vue.svg";
 
+console.log('%c [  ]-7', 'font-size:13px; background:pink; color:#bf2c9f;',  import.meta.env.VITE_API_BASE_URL)
 const count = ref(0);
 </script>
 
