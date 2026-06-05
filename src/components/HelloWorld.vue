@@ -1,11 +1,17 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import viteLogo from "../assets/vite.svg";
-import heroImg from "../assets/hero.png";
-import vueLogo from "../assets/vue.svg";
+import { ref } from 'vue'
+import viteLogo from '../assets/vite.svg'
+import heroImg from '../assets/hero.png'
+import vueLogo from '../assets/vue.svg'
 
-console.log('%c [  ]-7', 'font-size:13px; background:pink; color:#bf2c9f;',  import.meta.env.VITE_API_BASE_URL)
-const count = ref(0);
+// const aa = '888'
+// debugger
+console.log(
+  '%c [  ]-7',
+  'font-size:13px; background:pink; color:#bf2c9f;',
+  import.meta.env.VITE_API_BASE_URL
+)
+const count = ref(0)
 </script>
 
 <template>
@@ -19,9 +25,7 @@ const count = ref(0);
       <h1>Get started</h1>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
-    <button type="button" class="counter" @click="count++">
-      Count is {{ count }}
-    </button>
+    <button type="button" class="counter" @click="count++">Count is {{ count }}</button>
   </section>
 
   <div class="ticks"></div>
